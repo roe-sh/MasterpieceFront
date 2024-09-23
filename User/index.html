@@ -71,6 +71,155 @@
       text-align: center;
       padding: 30px 0;
     }
+    /* Body background with a subtle gradient */
+body {
+  background: linear-gradient(135deg, #f0f4ff 0%, #fdfdfd 100%);
+  font-family: 'Mukta', sans-serif;
+}
+
+/* Enhanced button styles with hover and transition */
+.btn-primary {
+  background: linear-gradient(45deg, #ff9472, #f2709c);
+  color: white !important;
+  border: none;
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #f2709c, #ff9472);
+  transform: scale(1.05);
+}
+
+.btn-outline-success {
+  border-color: #ff9472;
+  color: #ff9472;
+}
+
+.btn-outline-success:hover {
+  background-color: #ff9472;
+  color: white;
+}
+
+/* Hero section with a gradient overlay and larger text */
+.hero {
+  background: url('your-hero-image.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  background-blend-mode: overlay;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* Carousel with smoother transitions */
+.carousel-item img {
+  filter: brightness(70%);
+}
+
+.carousel-caption h5 {
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption p {
+  font-size: 18px;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Feature box with shadow and hover effect */
+.feature-box {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.feature-box img {
+  border-radius: 15px;
+}
+
+/* Cards with improved typography and hover effects */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Smooth transitions for all links */
+a {
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+a:hover {
+  color: #ff9472;
+}
+
+/* Footer with soft background and elegant typography */
+footer.site-footer {
+  background: #f0f0f5;
+  color: #666;
+  padding: 40px 0;
+  font-size: 16px;
+}
+
+.footer-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #999;
+}
+
+.footer ul li a:hover {
+  color: #ff9472;
+}
+
   </style>
 </head>
 
